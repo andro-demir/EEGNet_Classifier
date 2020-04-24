@@ -1,0 +1,43 @@
+#!/bin/bash 
+
+python run_ss.py -o "april20batch/000" -r 0
+python run_ss.py -o "april20batch/100" -r 0 -ad -lam 0.005
+python run_ss.py -o "april20batch/200" -r 0 -ad -lam 0.01
+python run_ss.py -o "april20batch/300" -r 0 -ad -lam 0.02
+python run_ss.py -o "april20batch/400" -r 0 -ad -lam 0.05
+python run_ss.py -o "april20batch/500" -r 0 -ad -lam 0.1
+python run_ss.py -o "april20batch/600" -r 0 -ad -lam 0.2
+python run_ss.py -o "april20batch/700" -r 0 -ad -lam 0.5
+python run_ss.py -o "april20batch/001" -r 1
+python run_ss.py -o "april20batch/101" -r 1 -ad -lam 0.005
+python run_ss.py -o "april20batch/201" -r 1 -ad -lam 0.01
+python run_ss.py -o "april20batch/301" -r 1 -ad -lam 0.02
+python run_ss.py -o "april20batch/401" -r 1 -ad -lam 0.05
+python run_ss.py -o "april20batch/501" -r 1 -ad -lam 0.1
+python run_ss.py -o "april20batch/601" -r 1 -ad -lam 0.2
+python run_ss.py -o "april20batch/701" -r 1 -ad -lam 0.5
+python run_ss.py -o "april20batch/002" -r 2
+python run_ss.py -o "april20batch/102" -r 2 -ad -lam 0.005
+python run_ss.py -o "april20batch/202" -r 2 -ad -lam 0.01
+python run_ss.py -o "april20batch/302" -r 2 -ad -lam 0.02
+python run_ss.py -o "april20batch/402" -r 2 -ad -lam 0.05
+python run_ss.py -o "april20batch/502" -r 2 -ad -lam 0.1
+python run_ss.py -o "april20batch/602" -r 2 -ad -lam 0.2
+python run_ss.py -o "april20batch/702" -r 2 -ad -lam 0.5
+python run_ss.py -o "april20batch/003" -r 3
+python run_ss.py -o "april20batch/103" -r 3 -ad -lam 0.005
+python run_ss.py -o "april20batch/203" -r 3 -ad -lam 0.01
+python run_ss.py -o "april20batch/303" -r 3 -ad -lam 0.02
+python run_ss.py -o "april20batch/403" -r 3 -ad -lam 0.05
+python run_ss.py -o "april20batch/503" -r 3 -ad -lam 0.1
+python run_ss.py -o "april20batch/603" -r 3 -ad -lam 0.2
+python run_ss.py -o "april20batch/703" -r 3 -ad -lam 0.5
+python run_ss.py -o "april20batch/004" -r 4
+python run_ss.py -o "april20batch/104" -r 4 -ad -lam 0.005
+python run_ss.py -o "april20batch/204" -r 4 -ad -lam 0.01
+python run_ss.py -o "april20batch/304" -r 4 -ad -lam 0.02
+python run_ss.py -o "april20batch/404" -r 4 -ad -lam 0.05
+python run_ss.py -o "april20batch/504" -r 4 -ad -lam 0.1
+python run_ss.py -o "april20batch/604" -r 4 -ad -lam 0.2
+python run_ss.py -o "april20batch/704" -r 4 -ad -lam 0.5
+
