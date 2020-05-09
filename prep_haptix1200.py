@@ -82,9 +82,9 @@ def main():
     args = parser.parse_args()
 
     if args.workplace == "dis":
-        path_root = "HAPTIXData/1200/*.mat"
+        path_root = "../Datasets/HAPTIXData/1200/*.mat"
     elif args.workplace == "mac":
-        path_root = "HAPTIXData/1200/*.mat"
+        path_root = "../Datasets/HAPTIXData/1200/*.mat"
     else:
         raise RuntimeError('Invalid workplace choice.')
 
